@@ -81,9 +81,44 @@ body{
   object-fit: contain;    /* ছবি কাটবে না */
   display: block;
   margin: auto;
+  padding: 10px;
 }
 
 
 .flower-card h4 {
   margin-top: 15px;
+}
+
+
+.imgOne{
+    background-color: #ebc3d6;
+    border-radius: 180px 180px 0 0;
+    height: 310px;
+    width: 300px;
+   /* background-size: cover; */
+   background-position: center;
+   background-repeat: no-repeat;
+   object-fit: contain;
+}
+
+.imgTwo{
+    background-color: #abdfe2;
+    border-radius: 180px 180px 0 0;
+   height: 310px;
+    width: 300px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   object-fit: contain;
+}
+
+.imgThree{
+    background-color: #c4d1b6;
+    border-radius: 180px 180px 0 0;
+    height: 310px;
+    width: 300px;
+   /* background-size: cover; */
+   background-position: center;
+   background-repeat: no-repeat;
+   object-fit: contain;
 }
