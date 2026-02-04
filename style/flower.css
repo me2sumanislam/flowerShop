@@ -1,0 +1,72 @@
+ 
+.open-sans-<uniquifier> {
+  font-family: "Lato", sans-serif , ;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+     font-family: "Open Sans", sans-serif;
+     padding: 0px;
+     margin: 0px;
+}
+
+/* 
+.header-banner{
+    background-color: #f3dcda;
+    display: flex;
+    height: 380px;
+    justify-content: space-between;
+ 
+  
+}
+
+.banner-text{
+    width:50%;
+    border: 1px solid red;
+}
+
+.banner-img{
+    height: 380px;
+}
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+     
+}
+
+  */
+
+  .header-banner{
+    background-color: #f3dcda;
+    display: flex;
+    height: 410px;
+    justify-content: space-between;
+    align-items: center;  /* 🔥 text + img vertically center */
+    padding: 0 80px;
+    gap: 40px;
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.banner-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* 🔥 image কে ডান পাশে সুন্দর করে */
+    align-items: flex-end;   /* চাইলে bottom এ বসবে */
+}
+
+.banner-img img{
+    width: 320px;      /* 🔥 ফুলের সাইজ control */
+    height: auto;
+}
+
+
+
