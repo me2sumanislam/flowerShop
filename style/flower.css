@@ -68,7 +68,6 @@ body{
     width:1000px;
     align-items:flex-start;
     justify-content: space-between;
-    border: 1px solid red;
     text-align: center;
     margin: auto;
     gap: 30px;
@@ -121,4 +120,21 @@ body{
    background-position: center;
    background-repeat: no-repeat;
    object-fit: contain;
+}
+
+.threeRowIcone{
+    display: flex;
+    width:1000px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.threeRowIcone > div{
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-align: center;
 }
