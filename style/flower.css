@@ -14,39 +14,16 @@ body{
      margin: 0px;
 }
 
-/* 
-.header-banner{
-    background-color: #f3dcda;
-    display: flex;
-    height: 380px;
-    justify-content: space-between;
  
-  
-}
-
-.banner-text{
-    width:50%;
-    border: 1px solid red;
-}
-
-.banner-img{
-    height: 380px;
-}
-
-.banner-img img{
-    width: 100%;
-    height: 100%;
-     
-}
-
-  */
 
   .header-banner{
     background-color: #f3dcda;
     display: flex;
     height: 410px;
+
     justify-content: space-between;
     align-items: center;  /* 🔥 text + img vertically center */
+
     padding: 0 80px;
     gap: 40px;
 }
@@ -68,5 +45,45 @@ body{
     height: auto;
 }
 
+.btn{
+    background-color: #E55473;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.feature-flowers{
+    width: 594px;
+   margin: auto;
+   text-align: center;
+   margin-top: 180px;
+   align-items: center;
+   justify-content: center;
+}
+
+.three-flower-row{
+    display: flex;
+    /* height: 500px; */
+    width:1000px;
+    align-items:flex-start;
+    justify-content: space-between;
+    border: 1px solid red;
+    text-align: center;
+    margin: auto;
+    gap: 30px;
+     
+}
+
+.three-flower-row img{
+    width: 100%;
+  height: 300px;          /* fixed height */
+  object-fit: contain;    /* ছবি কাটবে না */
+  display: block;
+  margin: auto;
+}
 
 
+.flower-card h4 {
+  margin-top: 15px;
+}
